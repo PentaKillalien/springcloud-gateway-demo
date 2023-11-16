@@ -19,6 +19,7 @@ public class SpringcloudGatewayApplication {
      */
     @Bean
     public Predicate bodyPredicate(){
+        System.out.println("ggg");
         return o -> true;
     }
 
